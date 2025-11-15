@@ -25,6 +25,7 @@ Testing the C Program for the desired output.
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
 
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h> 
@@ -100,14 +101,14 @@ void client(int wfd, int rfd) {
 }
 
 
-
+```
 
 ## OUTPUT
 ![Alt text](immag/1.png)
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 
-
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -195,6 +196,7 @@ void client() {
     close(fifo_fd);
 }
 
+```
 
 
 ## OUTPUT
